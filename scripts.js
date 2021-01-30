@@ -27,8 +27,8 @@
 // user.sayHello();
 // user.doesSmoke();
 // user.fullName();
-for (let r = 1; r <= 9; r++) {
-  for (let c = 1; c <= 9; c++) {
+for (let r = 1; r <= 10; r++) {
+  for (let c = 1; c <= 10; c++) {
     document.write(c + " *" + r + "=" + (r * c) + "<td>" + "|")
   }
   document.write("<br>" + "<br>");
